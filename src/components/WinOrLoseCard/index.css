@@ -1,0 +1,77 @@
+.win-lose-Container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #bbb2ec;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+}
+.win-loss-img-con {
+  text-align: center;
+}
+.win-loss-Img {
+  height: 200px;
+}
+
+.win-lose-text-container {
+  text-align: center;
+}
+
+.win-loss-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.win-loss-score-text {
+  margin-top: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+
+.win-loss-score {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #695bfa;
+  margin-top: 0px;
+}
+.paly-agiain-button {
+  padding: 10px;
+  height: 40px;
+  background-color: #ffce42;
+  color: #6b4a3b;
+  border-width: 0px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 758px) {
+  .win-lose-Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .win-loss-img-con {
+    order: 2;
+  }
+  .win-loss-Img {
+    height: 400px;
+  }
+  .win-loss-heading {
+    font-size: 40px;
+  }
+  .win-loss-score-text {
+    font-size: 20px;
+  }
+  .win-loss-score {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,22 @@
+.bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right bottom, #9796f0, #fbc7d4);
+}
+
+.emojis-container {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.emojis-container-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}

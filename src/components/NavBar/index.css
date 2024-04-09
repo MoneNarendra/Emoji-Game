@@ -1,0 +1,54 @@
+.nav-bar-container {
+  min-height: 12vh;
+  background-color: #b3aae6;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-bar-item {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 30px;
+}
+.logo-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.scores-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 6vh;
+  }
+  .logo-img {
+    height: 45px;
+  }
+  .logo-name {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .scores-name {
+    font-size: 20px;
+  }
+}
+
+.not-display {
+  display: none;
+}
